@@ -1,6 +1,6 @@
 #include "ComputerContainer.h"
 #include <iostream>
-
+//добавить конструктор 
 ComputerContainer::ComputerContainer() {}
 
 ComputerContainer::~ComputerContainer() {}
@@ -17,7 +17,7 @@ void ComputerContainer::removeComputer(int index) {
         std::cerr << "Индекс вне диапазона!" << std::endl;
     }
 }
-
+//проверка открытия файла
 void ComputerContainer::loadFromFile(const std::string& filename) {
     std::ifstream file(filename);
     if (!file.is_open()) {
