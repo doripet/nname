@@ -21,5 +21,5 @@ public:
     double price;
     int store;
 };
-
+//изменение строки ....))))(((
 #endif // COMPUTER_H
