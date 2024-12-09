@@ -57,7 +57,19 @@ void ComputerContainer::saveToFile(const std::string& filename) {
 }
 //функция вывода на экран
 
-
+void ComputerContainer::display() const {
+    for (size_t i = 0; i < computers.size(); ++i) {
+        const auto& computer = computers[i];
+        std::cout << i + 1 << ". Марка процессора: " << computer.cpu_brand 
+                  << ", Тактовая частота: " << computer.cpu_clock 
+                  << ", материнская плата: " << computer.motherboard 
+                  << ", жесткий диск: " << computer.harddrive 
+                  << ", видеокарта: " << computer.videocard 
+                  << ", цена: " << computer.price 
+                  << ", количество на складе: " << computer.store 
+                  << "\n";
+    }
+}
 
 
 double ComputerContainer::totalCost() const {
