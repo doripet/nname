@@ -18,7 +18,7 @@ void ComputerContainer::removeComputer(int index) {
     }
 }
 //проверка открытия файла
-//checkk111
+//CHECK23444s
 void ComputerContainer::loadFromFile(const std::string& filename) {
     std::ifstream file(filename);
     if (!file.is_open()) {
