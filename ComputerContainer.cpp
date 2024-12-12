@@ -1,6 +1,6 @@
 #include "ComputerContainer.h"
 #include <iostream>
-//добавить конструктор 
+//добавить конструктор update UUU
 ComputerContainer::ComputerContainer() {}
 
 ComputerContainer::~ComputerContainer() {}
