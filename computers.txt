@@ -1,3 +1,2 @@
 Intel 2.5 Asus1 nvidia rtx1 9000 8
-dd 2.4 ef dd ff 1111 4
-intel2 3.5 asus3 nvidia tttt 5000 9
+I122 2.3 matpl dis assss 1000 4
