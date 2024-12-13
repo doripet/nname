@@ -2,6 +2,7 @@
 #define COMPUTER_H
 
 #include <string>
+//class comp
 
 class Computer {
 public:
