@@ -5,6 +5,6 @@ int main() {
 	int a;
 	int b;
 	sum = a+b;
-	//cout << "сумма чисел:  "<< sum ;
+	cout << "сумма чисел:  "<< sum ;
     return 0;
 }
