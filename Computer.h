@@ -23,4 +23,7 @@ public:
     int store;
 };
 //изменение 
+///
+
+//fffff
 #endif // COMPUTER_H
